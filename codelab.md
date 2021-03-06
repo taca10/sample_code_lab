@@ -8,7 +8,7 @@ feedback link: https://github.com/ree-rishun/codelab-zenn
 analytics account:
 
 
-# CodeLabの紹介
+# Ruby on Rails入門
 
 ## Ruby on Rails入門 - はじめてのRuby on Railsチュートリアル
 Duration: 0:1500
@@ -20,7 +20,7 @@ Duration: 0:1500
 
 [PaizaCloudのサイトはこちらです。](https://paiza.cloud/ja/)
 
-メールアドレスやパスワードを設定して、アカウント作成お願いしmす。
+メールアドレスやパスワードを設定して、アカウント作成お願いします。
 ### サーバを作る
 「新規サーバー作成」をクリック
 
