@@ -35,7 +35,7 @@
 <p>メールアドレスやパスワードを設定して、アカウント作成お願いします。</p>
 <h2 is-upgraded>サーバを作る</h2>
 <p>「新規サーバー作成」をクリック</p>
-<p>サーバー名は適当につけてもらっても大丈夫です。 とりあえず contact_sample_app とします。</p>
+<p>サーバー名は適当につけてもらっても大丈夫です。 とりあえず contact-sample-app とします。</p>
 <p>Ruby on Rails、phpMyAdmin、MySQLを選んでから、もう一度「サーバを作る」を押します。</p>
 <h2 is-upgraded>Railsアプリケーション作成</h2>
 <p>左側のターミナルを押してください！ ターミナル(黒い画面)が起動したら下記のコマンドを入力してください。</p>
@@ -43,6 +43,7 @@
 </code></pre>
 <h2 is-upgraded>データベース作成</h2>
 <pre><code>cd contact-sample-app
+bundle install
 rails db:create
 </code></pre>
 <p>データベースが作成できました。</p>

@@ -25,7 +25,7 @@ Duration: 0:1500
 「新規サーバー作成」をクリック
 
 サーバー名は適当につけてもらっても大丈夫です。
-とりあえず contact_sample_app とします。
+とりあえず contact-sample-app とします。
 
 Ruby on Rails、phpMyAdmin、MySQLを選んでから、もう一度「サーバを作る」を押します。
 
@@ -41,6 +41,7 @@ rails new contact-sample-app --database=mysql
 
 ```
 cd contact-sample-app
+bundle install
 rails db:create
 ```
 
