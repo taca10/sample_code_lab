@@ -27,15 +27,29 @@
                   environment="web"
                   feedback-link="https://github.com/ree-rishun/codelab-zenn">
     
-      <google-codelab-step label="はじめに" duration="5">
-        <h2 is-upgraded>CodeLabはいいぞ！</h2>
-<p>test</p>
-<h2 is-upgraded>リストはこんな感じ！</h2>
-<ul>
-<li>test</li>
-<li>test</li>
-</ul>
-<h2 is-upgraded>番号リストも勿論対応！</h2>
+      <google-codelab-step label="Ruby on Rails入門 - はじめてのRuby on Railsチュートリアル" duration="25">
+        <h2 is-upgraded>環境構築</h2>
+<h3 is-upgraded>Paize Cloud使います。</h3>
+<p>ブラウザ上で開発環境を構築することができます。 ただし、無料版の場合は作った環境は1日で消えてしまいます。</p>
+<p><a href="https://paiza.cloud/ja/" target="_blank">PaizaCloudのサイトはこちらです。</a></p>
+<p>メールアドレスやパスワードを設定して、アカウント作成お願いしmす。</p>
+<h2 is-upgraded>サーバを作る</h2>
+<p>「新規サーバー作成」をクリック</p>
+<p>サーバー名は適当につけてもらっても大丈夫です。 とりあえず contact_sample_app とします。</p>
+<p>Ruby on Rails、phpMyAdmin、MySQLを選んでから、もう一度「サーバを作る」を押します。</p>
+<h2 is-upgraded>Railsアプリケーション作成</h2>
+<p>左側のターミナルを押してください！ ターミナル(黒い画面)が起動したら下記のコマンドを入力してください。</p>
+<pre><code>rails new contact-sample-app --database=mysql
+</code></pre>
+<h2 is-upgraded>データベース作成</h2>
+<pre><code>cd contact-sample-app
+rails db:create
+</code></pre>
+<p>データベースが作成できました。</p>
+<p>Rubu on Rails 起動コマンド</p>
+<pre><code>rails s
+</code></pre>
+<p>画面の左側に地球マークと3000と書かれたボタンがでます。 クリックすると、ページが表示されます。</p>
 
 
       </google-codelab-step>
