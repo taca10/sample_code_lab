@@ -1,0 +1,26 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2021-03-06T12:35:02+09:00",
+  "id": "codelab-rails-markdown",
+  "duration": 5,
+  "title": "CodeLabの紹介",
+  "summary": "はじめて学ぶRuby on Rails開発入門",
+  "source": "codelab.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "codelab",
+    "ruby",
+    "rubyonrails"
+  ],
+  "tags": [
+    "web"
+  ],
+  "feedback": "https://github.com/ree-rishun/codelab-zenn",
+  "url": "codelab-rails-markdown"
+}
